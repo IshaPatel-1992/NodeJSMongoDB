@@ -1,0 +1,26 @@
+Building my own Backend RestAPIusing Express & MongoDB Atlas
+Create a folder/APP: NodeMongoDB1
+>>npm init -y  [--It will create package.json]
+>>npm install express
+>>create app.js
+>>node app.js [--to run the app]
+>>npm install nodemon [--automatically refresh app as we change anything in code]
+>>npm start [--to run the applications]
+It will show output list of users in array
+>>got to extentions in VSCode => Install Rest client
+>>create file rest.http
+GET http://localhost:3000/users
+click on send request => see response
+>>Create a Post request in to app.json
+Open PostMan
+Try some get Post API
+>>node app.js or npm start
+>>npm install mongoose
+Create MongoDB Cluster Atlas free account
+patelisha1992: rJS6qWytDCJU33Df
+>>npm install dotenv
+>>create .env file [-- Used to write db connection string and accessibility]
+>>Create model folder >> User.js
+>>app.js [ -- It will contains database connection and app code ]
+>>node app.js [-- to run the app]
+
